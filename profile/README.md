@@ -11,7 +11,7 @@ Records, search, vectors, graphs, queues, topics, files, geometry and sealed sec
 eleven engines over one transactional store, in one Rust binary.
 
 [![engine](https://img.shields.io/badge/engine-0.34.2--beta-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
-[![s3](https://img.shields.io/badge/s3-pre--alpha-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
+[![s3](https://img.shields.io/badge/s3-0.0.1--alpha-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![clients](https://img.shields.io/badge/clients-rust%20·%20python%20·%20ts%20·%20go%20·%20kotlin-6B5FD1?style=flat-square)](#clients)
 [![docker](https://img.shields.io/badge/docker-tessaridb%2Ftessaridb-D98E33?style=flat-square)](https://hub.docker.com/r/tessaridb/tessaridb)
 
