@@ -27,22 +27,12 @@ job; enough at all of them, and nothing to keep in step.
 
 ## Products
 
-### <img src="assets/tessaridb-mark-128.png" width="32" alt=""> [TessariDB](https://github.com/tessaridb/tessaridb)
-
-The database. Eleven engines, one transaction, followers and automatic failover.
-
-### <img src="assets/tessarikv-mark-128.png" width="32" alt=""> [TessariKV](https://github.com/tessaridb/tessarikv)
-
-The future heart of TessariDB: an embedded key-value storage engine in pure Rust, lock-free first.
-`in development`
-
-### <img src="assets/tessaridb-s3-mark-128.png" width="32" alt=""> [TessariDB S3](https://github.com/tessaridb/tessaridb-s3)
-
-S3-compatible object storage in Rust. Metadata in TessariDB, bytes erasure-coded across nodes. `pre-alpha`
-
-### <img src="assets/agent-memory-mark-128.png" width="32" alt=""> [Agent Memory](https://tessaridb.com/agent-memory)
-
-Goals, plans, tasks and what each agent remembers, as queryable records. CLI, REST and MCP. `alpha`
+| | | |
+|:-:|---|---|
+| <img src="assets/tessaridb-mark-128.png" width="44" alt=""> | **[TessariDB](https://github.com/tessaridb/tessaridb)** | The database. Eleven engines, one transaction, followers and automatic failover. |
+| <img src="assets/tessarikv-mark-128.png" width="44" alt=""> | **[TessariKV](https://github.com/tessaridb/tessarikv)** | The future heart of TessariDB: an embedded key-value storage engine in pure Rust, lock-free first. `in development` |
+| <img src="assets/tessaridb-s3-mark-128.png" width="44" alt=""> | **[TessariDB S3](https://github.com/tessaridb/tessaridb-s3)** | S3-compatible object storage in Rust. Metadata in TessariDB, bytes erasure-coded across nodes. `pre-alpha` |
+| <img src="assets/agent-memory-mark-128.png" width="44" alt=""> | **[Agent Memory](https://tessaridb.com/agent-memory)** | Goals, plans, tasks and what each agent remembers, as queryable records. CLI, REST and MCP. `alpha` |
 
 ## Clients
 
