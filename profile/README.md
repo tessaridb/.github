@@ -8,9 +8,10 @@
 ## The stack around the model, in one store.
 
 Records, search, vectors, graphs, queues, topics, files, geometry and sealed secrets:
-eleven engines over one transactional store, in one Rust binary.
+eleven engines over one transactional store, in one Rust binary, on its own storage engine.
 
-[![engine](https://img.shields.io/badge/engine-0.34.4-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
+[![engine](https://img.shields.io/badge/engine-0.36.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
+[![tessarikv](https://img.shields.io/badge/tessarikv-0.1.0-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
 [![s3](https://img.shields.io/badge/s3-0.2.0--beta-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![clients](https://img.shields.io/badge/clients-rust%20·%20python%20·%20ts%20·%20go%20·%20kotlin-6B5FD1?style=flat-square)](#clients)
 [![docker](https://img.shields.io/badge/docker-tessaridb%2Ftessaridb-D98E33?style=flat-square)](https://hub.docker.com/r/tessaridb/tessaridb)
@@ -29,9 +30,9 @@ job; enough at all of them, and nothing to keep in step.
 
 | | | |
 |:-:|---|---|
-| <img src="assets/tessaridb-mark-128.png" width="44" alt=""> | **[TessariDB](https://github.com/tessaridb/tessaridb)** | The database. Eleven engines, one transaction, followers and automatic failover. |
-| <img src="assets/tessarikv-mark-128.png" width="44" alt=""> | **[TessariKV](https://github.com/tessaridb/tessarikv)** | The future heart of TessariDB: an embedded key-value storage engine in pure Rust, lock-free first. `in development` |
-| <img src="assets/tessaridb-s3-mark-128.png" width="44" alt=""> | **[TessariDB S3](https://github.com/tessaridb/tessaridb-s3)** | S3-compatible object storage in Rust. Metadata in TessariDB, bytes erasure-coded across nodes. `pre-alpha` |
+| <img src="assets/tessaridb-mark-128.png" width="44" alt=""> | **[TessariDB](https://github.com/tessaridb/tessaridb)** | The database. Eleven engines, one transaction, followers and automatic failover, on its own engine, TessariKV. |
+| <img src="assets/tessarikv-mark-128.png" width="44" alt=""> | **[TessariKV](https://github.com/tessaridb/tessarikv)** | The heart of TessariDB: an embedded key-value storage engine in pure Rust, lock-free first, with a stable file format. TessariDB runs on it from 0.36.0. `0.1.0` |
+| <img src="assets/tessaridb-s3-mark-128.png" width="44" alt=""> | **[TessariDB S3](https://github.com/tessaridb/tessaridb-s3)** | S3-compatible object storage in Rust. Metadata in TessariDB, bytes erasure-coded across nodes. `beta` |
 | <img src="assets/agent-memory-mark-128.png" width="44" alt=""> | **[Agent Memory](https://tessaridb.com/agent-memory)** | Goals, plans, tasks and what each agent remembers, as queryable records. CLI, REST and MCP. `alpha` |
 
 ## Clients
