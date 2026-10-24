@@ -12,7 +12,7 @@ eleven engines over one transactional store, in one Rust binary, on its own stor
 
 [![engine](https://img.shields.io/badge/engine-0.38.2-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
 [![tessarikv](https://img.shields.io/badge/tessarikv-0.1.1-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
-[![s3](https://img.shields.io/badge/s3-0.6.0-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
+[![s3](https://img.shields.io/badge/s3-0.7.0-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![oauth](https://img.shields.io/badge/oauth-0.1.0%20alpha-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
 [![agent memory](https://img.shields.io/badge/agent%20memory-0.5.0--beta-6B5FD1?style=flat-square)](https://am.tessaridb.com)
 [![clients](https://img.shields.io/badge/clients-rust%20·%20python%20·%20ts%20·%20go%20·%20kotlin-6B5FD1?style=flat-square)](#clients)
@@ -48,10 +48,11 @@ format. TessariDB runs on it from 0.36.0.
 
 ### <img src="assets/tessaridb-s3-mark-128.png" width="28" alt=""> TessariDB S3
 
-S3-compatible object storage in Rust. Metadata in TessariDB, bytes erasure-coded across nodes.
+S3-compatible object storage in Rust. Metadata in TessariDB, bytes erasure-coded across nodes. Its console signs in
+through TessariDB OAuth.
 
 **[Repository](https://github.com/tessaridb/tessaridb-s3) · [Site](https://s3.tessaridb.com) ·
-[Docs](https://docs.tessaridb.com/s3)** · `0.6.0`
+[Docs](https://docs.tessaridb.com/s3)** · `0.7.0`
 
 ### <img src="assets/tessaridb-oauth-mark-128.png" width="28" alt=""> TessariDB OAuth
 
