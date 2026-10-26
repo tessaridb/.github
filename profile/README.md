@@ -10,7 +10,7 @@
 Records, search, vectors, graphs, queues, topics, files, geometry and sealed secrets:
 eleven engines over one transactional store, in one Rust binary, on its own storage engine.
 
-[![engine](https://img.shields.io/badge/engine-0.38.4-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
+[![engine](https://img.shields.io/badge/engine-0.39.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
 [![tessarikv](https://img.shields.io/badge/tessarikv-0.1.1-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
 [![s3](https://img.shields.io/badge/s3-0.8.0-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![oauth](https://img.shields.io/badge/oauth-0.3.0-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
@@ -33,10 +33,10 @@ job; enough at all of them, and nothing to keep in step.
 
 ### <img src="assets/tessaridb-mark-128.png" width="28" alt=""> TessariDB
 
-The database. Eleven engines, one transaction, followers and automatic failover, on its own engine, TessariKV.
+The database. Eleven engines, one transaction, a flexible cluster — sharding, multi-master, automatic failover — on its own engine, TessariKV.
 
 **[Repository](https://github.com/tessaridb/tessaridb) · [Site](https://tessaridb.com) ·
-[Docs](https://docs.tessaridb.com)** · `0.38.4`
+[Docs](https://docs.tessaridb.com)** · `0.39.0`
 
 ### <img src="assets/tessarikv-mark-128.png" width="28" alt=""> TessariKV
 
@@ -73,11 +73,11 @@ Goals, plans, tasks and what each agent remembers, as queryable records. CLI, RE
 
 Apache-2.0, all checked against one [protocol and conformance corpus](https://github.com/tessaridb/tessaridb-protocol):
 
-- **[Rust](https://github.com/tessaridb/tessaridb-sdk-rust)**: `tessaridb-client` `0.12.0`
-- **[Python](https://github.com/tessaridb/tessaridb-sdk-python)**: `tessaridb-client` `0.12.0`
-- **[TypeScript](https://github.com/tessaridb/tessaridb-sdk-js)**: `@tessaridb/client` `0.12.0`
-- **[Go](https://github.com/tessaridb/tessaridb-sdk-go)**: `github.com/tessaridb/tessaridb-sdk-go` `0.12.0`
-- **[Kotlin](https://github.com/tessaridb/tessaridb-sdk-kotlin)**: `com.tessaridb:tessaridb-client` `0.12.0`
+- **[Rust](https://github.com/tessaridb/tessaridb-sdk-rust)**: `tessaridb-client` `0.13.0`
+- **[Python](https://github.com/tessaridb/tessaridb-sdk-python)**: `tessaridb-client` `0.13.0`
+- **[TypeScript](https://github.com/tessaridb/tessaridb-sdk-js)**: `@tessaridb/client` `0.13.0`
+- **[Go](https://github.com/tessaridb/tessaridb-sdk-go)**: `github.com/tessaridb/tessaridb-sdk-go` `0.13.0`
+- **[Kotlin](https://github.com/tessaridb/tessaridb-sdk-kotlin)**: `com.tessaridb:tessaridb-client` `0.13.0`
 - **[S3 SDK and CLI](https://github.com/tessaridb/tessaridb-s3-client)**: `tessaridb-s3-client` `0.2.1`, for S3-compatible storage
 - **[Agent plugins](https://github.com/tessaridb/tessaridb-agent-plugins)**: for Claude Code and Codex
 
