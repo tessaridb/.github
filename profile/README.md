@@ -10,8 +10,8 @@
 Records, search, vectors, graphs, queues, topics, files, geometry and sealed secrets:
 eleven engines over one transactional store, in one Rust binary, on its own storage engine.
 
-[![engine](https://img.shields.io/badge/engine-0.39.1-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
-[![tessarikv](https://img.shields.io/badge/tessarikv-0.1.2-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
+[![engine](https://img.shields.io/badge/engine-0.39.2-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
+[![tessarikv](https://img.shields.io/badge/tessarikv-0.2.0-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
 [![s3](https://img.shields.io/badge/s3-0.8.0-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![oauth](https://img.shields.io/badge/oauth-0.3.0-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
 [![agent memory](https://img.shields.io/badge/agent%20memory-0.5.0--beta-6B5FD1?style=flat-square)](https://am.tessaridb.com)
@@ -36,7 +36,7 @@ job; enough at all of them, and nothing to keep in step.
 The database. Eleven engines, one transaction, a flexible cluster — sharding, multi-master, automatic failover — on its own engine, TessariKV.
 
 **[Repository](https://github.com/tessaridb/tessaridb) · [Site](https://tessaridb.com) ·
-[Docs](https://docs.tessaridb.com)** · `0.39.1`
+[Docs](https://docs.tessaridb.com)** · `0.39.2`
 
 ### <img src="assets/tessarikv-mark-128.png" width="28" alt=""> TessariKV
 
@@ -44,7 +44,7 @@ The heart of TessariDB: an embedded key-value storage engine in pure Rust, lock-
 format. TessariDB runs on it from 0.36.0.
 
 **[Repository](https://github.com/tessaridb/tessarikv) · [Site](https://kv.tessaridb.com) ·
-[Docs](https://docs.tessaridb.com/kv)** · `0.1.2`
+[Docs](https://docs.tessaridb.com/kv)** · `0.2.0`
 
 ### <img src="assets/tessaridb-s3-mark-128.png" width="28" alt=""> TessariDB S3
 
