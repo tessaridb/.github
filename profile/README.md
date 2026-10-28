@@ -12,7 +12,7 @@ eleven engines over one transactional store, in one Rust binary, on its own stor
 
 [![engine](https://img.shields.io/badge/engine-0.39.2-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
 [![tessarikv](https://img.shields.io/badge/tessarikv-0.2.0-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
-[![s3](https://img.shields.io/badge/s3-0.8.0-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
+[![s3](https://img.shields.io/badge/s3-0.8.1-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![oauth](https://img.shields.io/badge/oauth-0.3.0-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
 [![agent memory](https://img.shields.io/badge/agent%20memory-0.5.0--beta-6B5FD1?style=flat-square)](https://am.tessaridb.com)
 [![clients](https://img.shields.io/badge/clients-rust%20·%20python%20·%20ts%20·%20go%20·%20kotlin-6B5FD1?style=flat-square)](#clients)
@@ -52,7 +52,7 @@ S3-compatible object storage in Rust. Metadata in TessariDB, bytes erasure-coded
 through TessariDB OAuth, and the settings its nodes share are kept in TessariDB.
 
 **[Repository](https://github.com/tessaridb/tessaridb-s3) · [Site](https://s3.tessaridb.com) ·
-[Docs](https://docs.tessaridb.com/s3)** · `0.8.0`
+[Docs](https://docs.tessaridb.com/s3)** · `0.8.1`
 
 ### <img src="assets/tessaridb-oauth-mark-128.png" width="28" alt=""> TessariDB OAuth
 
