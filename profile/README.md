@@ -10,7 +10,7 @@
 Records, search, vectors, graphs, queues, topics, files, geometry and sealed secrets:
 eleven engines over one transactional store, in one Rust binary, on its own storage engine.
 
-[![engine](https://img.shields.io/badge/engine-0.39.2-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
+[![engine](https://img.shields.io/badge/engine-0.39.3-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
 [![tessarikv](https://img.shields.io/badge/tessarikv-0.2.0-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
 [![s3](https://img.shields.io/badge/s3-0.8.1-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![oauth](https://img.shields.io/badge/oauth-0.3.0-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
@@ -36,7 +36,7 @@ job; enough at all of them, and nothing to keep in step.
 The database. Eleven engines, one transaction, a flexible cluster — sharding, multi-master, automatic failover — on its own engine, TessariKV.
 
 **[Repository](https://github.com/tessaridb/tessaridb) · [Site](https://tessaridb.com) ·
-[Docs](https://docs.tessaridb.com)** · `0.39.2`
+[Docs](https://docs.tessaridb.com)** · `0.39.3`
 
 ### <img src="assets/tessarikv-mark-128.png" width="28" alt=""> TessariKV
 
@@ -73,7 +73,7 @@ Goals, plans, tasks and what each agent remembers, as queryable records. CLI, RE
 
 Apache-2.0, all checked against one [protocol and conformance corpus](https://github.com/tessaridb/tessaridb-protocol):
 
-- **[Rust](https://github.com/tessaridb/tessaridb-sdk-rust)**: `tessaridb-client` `0.13.0`
+- **[Rust](https://github.com/tessaridb/tessaridb-sdk-rust)**: `tessaridb-client` `0.13.1`
 - **[Python](https://github.com/tessaridb/tessaridb-sdk-python)**: `tessaridb-client` `0.13.0`
 - **[TypeScript](https://github.com/tessaridb/tessaridb-sdk-js)**: `@tessaridb/client` `0.13.0`
 - **[Go](https://github.com/tessaridb/tessaridb-sdk-go)**: `github.com/tessaridb/tessaridb-sdk-go` `0.13.0`
