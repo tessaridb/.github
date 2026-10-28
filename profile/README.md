@@ -67,7 +67,7 @@ see and end their sessions and grants, in one binary with its admin panel.
 
 Goals, plans, tasks and what each agent remembers, as queryable records. CLI, REST and MCP.
 
-**[Site](https://am.tessaridb.com) · [Docs](https://docs.tessaridb.com/am)** · `0.5.0-beta`
+**[Site](https://am.tessaridb.com) · [Docs](https://docs.tessaridb.com/am)** · `0.6.2`
 
 ## Clients
 
