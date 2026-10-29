@@ -14,7 +14,8 @@ eleven engines over one transactional store, in one Rust binary, on its own stor
 [![tessarikv](https://img.shields.io/badge/tessarikv-0.2.0-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
 [![s3](https://img.shields.io/badge/s3-0.8.1-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![oauth](https://img.shields.io/badge/oauth-0.3.0-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
-[![agent memory](https://img.shields.io/badge/agent%20memory-0.5.0--beta-6B5FD1?style=flat-square)](https://am.tessaridb.com)
+[![agent memory](https://img.shields.io/badge/agent%20memory-0.6.2-6B5FD1?style=flat-square)](https://am.tessaridb.com)
+[![vault](https://img.shields.io/badge/vault-0.0.1-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb-vault)
 [![clients](https://img.shields.io/badge/clients-rust%20·%20python%20·%20ts%20·%20go%20·%20kotlin-6B5FD1?style=flat-square)](#clients)
 [![docker](https://img.shields.io/badge/docker-tessaridb%2Ftessaridb-D98E33?style=flat-square)](https://hub.docker.com/r/tessaridb/tessaridb)
 
@@ -68,6 +69,14 @@ see and end their sessions and grants, in one binary with its admin panel.
 Goals, plans, tasks and what each agent remembers, as queryable records. CLI, REST and MCP.
 
 **[Site](https://am.tessaridb.com) · [Docs](https://docs.tessaridb.com/am)** · `0.6.2`
+
+### <img src="assets/tessaridb-vault-mark-128.png" width="28" alt=""> TessariDB Vault
+
+A password manager for companies. Records are encrypted in the browser and shared by person, team, department or
+company; the server and TessariDB hold only ciphertext, and every piece of state is in TessariDB.
+
+**[Repository](https://github.com/tessaridb/tessaridb-vault) · [Docs](https://docs.tessaridb.com/vault)** · `0.0.1`: the
+first release
 
 ## Clients
 
