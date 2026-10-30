@@ -21,7 +21,8 @@ eleven engines over one transactional store, in one Rust binary, on its own stor
 
 **[tessaridb.com](https://tessaridb.com) · [docs](https://docs.tessaridb.com) ·
 [kv.tessaridb.com](https://kv.tessaridb.com) · [s3.tessaridb.com](https://s3.tessaridb.com) ·
-[am.tessaridb.com](https://am.tessaridb.com) · [oauth.tessaridb.com](https://oauth.tessaridb.com)**
+[am.tessaridb.com](https://am.tessaridb.com) · [oauth.tessaridb.com](https://oauth.tessaridb.com) ·
+[vault.tessaridb.com](https://vault.tessaridb.com)**
 
 </div>
 
@@ -75,8 +76,8 @@ Goals, plans, tasks and what each agent remembers, as queryable records. CLI, RE
 A password manager for companies. Records are encrypted in the browser and shared by person, team, department or
 company; the server and TessariDB hold only ciphertext, and every piece of state is in TessariDB.
 
-**[Repository](https://github.com/tessaridb/tessaridb-vault) · [Docs](https://docs.tessaridb.com/vault)** · `0.0.1`: the
-first release
+**[Repository](https://github.com/tessaridb/tessaridb-vault) · [Site](https://vault.tessaridb.com) ·
+[Docs](https://docs.tessaridb.com/vault)** · `0.0.1`: the first release
 
 ## Clients
 
