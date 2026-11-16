@@ -38,7 +38,7 @@ job; enough at all of them, and nothing to keep in step.
 The database. Eleven engines, one transaction, a flexible cluster — sharding, multi-master, automatic failover, replication between clusters declared in the language — on its own engine, TessariKV.
 
 **[Repository](https://github.com/tessaridb/tessaridb) · [Site](https://tessaridb.com) ·
-[Docs](https://docs.tessaridb.com)** · `0.41.0`
+[Docs](https://docs.tessaridb.com)** · `0.42.0`
 
 ### <img src="assets/tessarikv-mark-128.png" width="28" alt=""> TessariKV
 
@@ -83,11 +83,11 @@ company; the server and TessariDB hold only ciphertext, and every piece of state
 
 Apache-2.0, all checked against one [protocol and conformance corpus](https://github.com/tessaridb/tessaridb-protocol):
 
-- **[Rust](https://github.com/tessaridb/tessaridb-sdk-rust)**: `tessaridb-client` `0.13.1`
-- **[Python](https://github.com/tessaridb/tessaridb-sdk-python)**: `tessaridb-client` `0.13.0`
-- **[TypeScript](https://github.com/tessaridb/tessaridb-sdk-js)**: `@tessaridb/client` `0.13.0`
-- **[Go](https://github.com/tessaridb/tessaridb-sdk-go)**: `github.com/tessaridb/tessaridb-sdk-go` `0.13.0`
-- **[Kotlin](https://github.com/tessaridb/tessaridb-sdk-kotlin)**: `com.tessaridb:tessaridb-client` `0.13.0`
+- **[Rust](https://github.com/tessaridb/tessaridb-sdk-rust)**: `tessaridb-client` `0.14.0`
+- **[Python](https://github.com/tessaridb/tessaridb-sdk-python)**: `tessaridb-client` `0.14.0`
+- **[TypeScript](https://github.com/tessaridb/tessaridb-sdk-js)**: `@tessaridb/client` `0.14.0`
+- **[Go](https://github.com/tessaridb/tessaridb-sdk-go)**: `github.com/tessaridb/tessaridb-sdk-go` `0.14.0`
+- **[Kotlin](https://github.com/tessaridb/tessaridb-sdk-kotlin)**: `com.tessaridb:tessaridb-client` `0.14.0`
 - **[S3 SDK and CLI](https://github.com/tessaridb/tessaridb-s3-client)**: `tessaridb-s3-client` `0.2.1`, for S3-compatible storage
 - **[OAuth client](https://github.com/tessaridb/tessaridb-oauth-client)**: `tessaridb-oauth-client` `0.1.0`, to check TessariDB OAuth access tokens and sign users in
 - **[Agent plugins](https://github.com/tessaridb/tessaridb-agent-plugins)**: for Claude Code and Codex
