@@ -7,10 +7,10 @@
 
 ## The stack around the model, in one store.
 
-Records, search, vectors, graphs, queues, topics, files, geometry and sealed secrets:
+Records — rows, with a columnar projection of the same records — search, vectors, graphs, queues, topics, files, geometry and sealed secrets:
 eleven engines over one transactional store, in one Rust binary, on its own storage engine.
 
-[![engine](https://img.shields.io/badge/engine-0.47.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
+[![engine](https://img.shields.io/badge/engine-0.48.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
 [![tessarikv](https://img.shields.io/badge/tessarikv-0.2.0-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
 [![s3](https://img.shields.io/badge/s3-0.8.1-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![oauth](https://img.shields.io/badge/oauth-0.3.3-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
@@ -28,17 +28,19 @@ eleven engines over one transactional store, in one Rust binary, on its own stor
 
 An AI product usually ends up running a database, a search engine, a vector index, a cache, a queue, an
 event log and somewhere for files, with no transaction across any of them. TessariDB is one store that does
-all of those jobs on the same records, under one snapshot, in one language. Not the fastest at any single
+all of those jobs on the same records, under one snapshot, in one language. A table keeps its records as
+rows and may project the same records into a columnar layout for the scans that read many at once — one
+authority, two layouts, no copy to reconcile. Not the fastest at any single
 job; enough at all of them, and nothing to keep in step.
 
 ## Products
 
 ### <img src="assets/tessaridb-mark-128.png" width="28" alt=""> TessariDB
 
-The database. Eleven engines, one transaction, a flexible cluster — sharding, multi-master, automatic failover, replication between clusters declared in the language — on its own engine, TessariKV. The relational wire protocol serves its tables to the psql, psycopg and BI-tool clients a stack already runs.
+The database. Eleven engines, one transaction, a cluster declared in the catalog itself — realms and what a loss must survive, sharding that rebalances a growing table by itself, failover, replication between clusters — on its own engine, TessariKV. The relational wire protocol serves its tables to the psql, psycopg and BI-tool clients a stack already runs.
 
 **[Repository](https://github.com/tessaridb/tessaridb) · [Site](https://tessaridb.com) ·
-[Docs](https://docs.tessaridb.com)** · `0.47.0`
+[Docs](https://docs.tessaridb.com)** · `0.48.0`
 
 ### <img src="assets/tessarikv-mark-128.png" width="28" alt=""> TessariKV
 
