@@ -16,6 +16,7 @@ eleven engines over one transactional store, in one Rust binary, on its own stor
 [![oauth](https://img.shields.io/badge/oauth-0.3.3-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
 [![agent memory](https://img.shields.io/badge/agent%20memory-0.6.5-6B5FD1?style=flat-square)](https://am.tessaridb.com)
 [![vault](https://img.shields.io/badge/vault-0.0.4-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb-vault)
+[![lsp](https://img.shields.io/badge/tessariql%20lsp-0.1.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessariql-lsp)
 [![clients](https://img.shields.io/badge/clients-rust%20·%20python%20·%20ts%20·%20go%20·%20kotlin-6B5FD1?style=flat-square)](#clients)
 [![docker](https://img.shields.io/badge/docker-tessaridb%2Ftessaridb-D98E33?style=flat-square)](https://hub.docker.com/r/tessaridb/tessaridb)
 
@@ -93,6 +94,16 @@ Apache-2.0, all checked against one [protocol and conformance corpus](https://gi
 - **[S3 SDK and CLI](https://github.com/tessaridb/tessaridb-s3-client)**: `tessaridb-s3-client` `0.2.1`, for S3-compatible storage
 - **[OAuth client](https://github.com/tessaridb/tessaridb-oauth-client)**: `tessaridb-oauth-client` `0.1.0`, to check TessariDB OAuth access tokens and sign users in
 - **[Agent plugins](https://github.com/tessaridb/tessaridb-agent-plugins)**: for Claude Code and Codex
+
+## Language tooling
+
+The [TessariQL language server](https://github.com/tessaridb/tessariql-lsp) brings the query language into the
+editor — syntax diagnostics, completion and hover for every editor with an LSP client, and catalog-aware
+completion plus run-statement-under-cursor once it is pointed at a node. Apache-2.0, written from the published
+language and checked against TessariDB `0.50.0`.
+
+- **[VS Code extension](https://marketplace.visualstudio.com/items?itemName=tessaridb.tessariql)**: `tessaridb.tessariql` on the Marketplace
+- **[`tessariql-lsp` on crates.io](https://crates.io/crates/tessariql-lsp)**: `0.1.0` — `cargo install tessariql-lsp`, the same binary Neovim, Helix and Zed run
 
 ## Start
 
