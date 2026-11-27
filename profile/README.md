@@ -10,13 +10,13 @@
 Records — rows, with a columnar projection of the same records — search, vectors, graphs, queues, topics, files, geometry and sealed secrets:
 eleven engines over one transactional store, in one Rust binary, on its own storage engine.
 
-[![engine](https://img.shields.io/badge/engine-0.55.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
+[![engine](https://img.shields.io/badge/engine-0.56.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
 [![tessarikv](https://img.shields.io/badge/tessarikv-0.2.0-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
 [![s3](https://img.shields.io/badge/s3-0.8.1-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![oauth](https://img.shields.io/badge/oauth-0.3.3-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
 [![agent memory](https://img.shields.io/badge/agent%20memory-0.6.6-6B5FD1?style=flat-square)](https://am.tessaridb.com)
 [![vault](https://img.shields.io/badge/vault-0.0.4-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb-vault)
-[![lsp](https://img.shields.io/badge/tessariql%20lsp-0.2.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessariql-lsp)
+[![lsp](https://img.shields.io/badge/tessariql%20lsp-0.3.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessariql-lsp)
 [![clients](https://img.shields.io/badge/clients-rust%20·%20python%20·%20ts%20·%20go%20·%20kotlin-6B5FD1?style=flat-square)](#clients)
 [![docker](https://img.shields.io/badge/docker-tessaridb%2Ftessaridb-D98E33?style=flat-square)](https://hub.docker.com/r/tessaridb/tessaridb)
 
@@ -41,7 +41,7 @@ job; enough at all of them, and nothing to keep in step.
 The database. Eleven engines, one transaction, a cluster declared in the catalog itself — realms and what a loss must survive, sharding that rebalances a growing table by itself, failover, replication between clusters — on its own engine, TessariKV. The relational wire protocol serves its tables to the psql, psycopg and BI-tool clients a stack already runs.
 
 **[Repository](https://github.com/tessaridb/tessaridb) · [Site](https://tessaridb.com) ·
-[Docs](https://docs.tessaridb.com)** · `0.55.0`
+[Docs](https://docs.tessaridb.com)** · `0.56.0`
 
 ### <img src="assets/tessarikv-mark-128.png" width="28" alt=""> TessariKV
 
@@ -103,7 +103,7 @@ completion plus run-statement-under-cursor once it is pointed at a node. Apache-
 language and checked against TessariDB `0.50.0`.
 
 - **[VS Code extension](https://marketplace.visualstudio.com/items?itemName=tessaridb.tessariql)**: `tessaridb.tessariql` on the Marketplace
-- **[`tessariql-lsp` on crates.io](https://crates.io/crates/tessariql-lsp)**: `0.2.0` — `cargo install tessariql-lsp`, the same binary Neovim, Helix and Zed run
+- **[`tessariql-lsp` on crates.io](https://crates.io/crates/tessariql-lsp)**: `0.3.0` — `cargo install tessariql-lsp`, the same binary Neovim, Helix and Zed run
 
 ## Start
 
