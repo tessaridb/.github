@@ -41,7 +41,7 @@ job; enough at all of them, and nothing to keep in step.
 The database. Eleven engines, one transaction, a cluster declared in the catalog itself — realms and what a loss must survive, sharding that rebalances a growing table by itself, failover, replication between clusters — on its own engine, TessariKV. The relational wire protocol serves its tables to the psql, psycopg and BI-tool clients a stack already runs.
 
 **[Repository](https://github.com/tessaridb/tessaridb) · [Site](https://tessaridb.com) ·
-[Docs](https://docs.tessaridb.com)** · `0.54.0`
+[Docs](https://docs.tessaridb.com)** · `0.55.0`
 
 ### <img src="assets/tessarikv-mark-128.png" width="28" alt=""> TessariKV
 
@@ -103,7 +103,7 @@ completion plus run-statement-under-cursor once it is pointed at a node. Apache-
 language and checked against TessariDB `0.50.0`.
 
 - **[VS Code extension](https://marketplace.visualstudio.com/items?itemName=tessaridb.tessariql)**: `tessaridb.tessariql` on the Marketplace
-- **[`tessariql-lsp` on crates.io](https://crates.io/crates/tessariql-lsp)**: `0.1.0` — `cargo install tessariql-lsp`, the same binary Neovim, Helix and Zed run
+- **[`tessariql-lsp` on crates.io](https://crates.io/crates/tessariql-lsp)**: `0.2.0` — `cargo install tessariql-lsp`, the same binary Neovim, Helix and Zed run
 
 ## Start
 
