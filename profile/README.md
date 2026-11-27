@@ -10,13 +10,13 @@
 Records — rows, with a columnar projection of the same records — search, vectors, graphs, queues, topics, files, geometry and sealed secrets:
 eleven engines over one transactional store, in one Rust binary, on its own storage engine.
 
-[![engine](https://img.shields.io/badge/engine-0.54.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
+[![engine](https://img.shields.io/badge/engine-0.55.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb)
 [![tessarikv](https://img.shields.io/badge/tessarikv-0.2.0-2E9E6B?style=flat-square)](https://github.com/tessaridb/tessarikv)
 [![s3](https://img.shields.io/badge/s3-0.8.1-2FB5B0?style=flat-square)](https://github.com/tessaridb/tessaridb-s3)
 [![oauth](https://img.shields.io/badge/oauth-0.3.3-D9A733?style=flat-square)](https://github.com/tessaridb/tessaridb-oauth)
 [![agent memory](https://img.shields.io/badge/agent%20memory-0.6.6-6B5FD1?style=flat-square)](https://am.tessaridb.com)
 [![vault](https://img.shields.io/badge/vault-0.0.4-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessaridb-vault)
-[![lsp](https://img.shields.io/badge/tessariql%20lsp-0.1.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessariql-lsp)
+[![lsp](https://img.shields.io/badge/tessariql%20lsp-0.2.0-6B5FD1?style=flat-square)](https://github.com/tessaridb/tessariql-lsp)
 [![clients](https://img.shields.io/badge/clients-rust%20·%20python%20·%20ts%20·%20go%20·%20kotlin-6B5FD1?style=flat-square)](#clients)
 [![docker](https://img.shields.io/badge/docker-tessaridb%2Ftessaridb-D98E33?style=flat-square)](https://hub.docker.com/r/tessaridb/tessaridb)
 
@@ -86,11 +86,11 @@ company; the server and TessariDB hold only ciphertext, and every piece of state
 
 Apache-2.0, all checked against one [protocol and conformance corpus](https://github.com/tessaridb/tessaridb-protocol):
 
-- **[Rust](https://github.com/tessaridb/tessaridb-sdk-rust)**: `tessaridb-client` `0.14.0`
-- **[Python](https://github.com/tessaridb/tessaridb-sdk-python)**: `tessaridb-client` `0.14.0`
-- **[TypeScript](https://github.com/tessaridb/tessaridb-sdk-js)**: `@tessaridb/client` `0.14.0`
-- **[Go](https://github.com/tessaridb/tessaridb-sdk-go)**: `github.com/tessaridb/tessaridb-sdk-go` `0.14.0`
-- **[Kotlin](https://github.com/tessaridb/tessaridb-sdk-kotlin)**: `com.tessaridb:tessaridb-client` `0.14.0`
+- **[Rust](https://github.com/tessaridb/tessaridb-sdk-rust)**: `tessaridb-client` `0.15.0`
+- **[Python](https://github.com/tessaridb/tessaridb-sdk-python)**: `tessaridb-client` `0.15.0`
+- **[TypeScript](https://github.com/tessaridb/tessaridb-sdk-js)**: `@tessaridb/client` `0.15.0`
+- **[Go](https://github.com/tessaridb/tessaridb-sdk-go)**: `github.com/tessaridb/tessaridb-sdk-go` `0.15.0`
+- **[Kotlin](https://github.com/tessaridb/tessaridb-sdk-kotlin)**: `com.tessaridb:tessaridb-client` `0.15.0`
 - **[S3 SDK and CLI](https://github.com/tessaridb/tessaridb-s3-client)**: `tessaridb-s3-client` `0.2.1`, for S3-compatible storage
 - **[OAuth client](https://github.com/tessaridb/tessaridb-oauth-client)**: `tessaridb-oauth-client` `0.1.0`, to check TessariDB OAuth access tokens and sign users in
 - **[Agent plugins](https://github.com/tessaridb/tessaridb-agent-plugins)**: for Claude Code and Codex
